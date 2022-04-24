@@ -30,7 +30,10 @@ A common risk of sentiment analysis is the inability to contextualize tone and s
 
 ### Potentially useful references
 https://fivethirtyeight.com/features/which-justices-were-bffs-this-scotus-term/
+
 https://basilchackomathew.medium.com/best-ocr-tools-in-python-4f16a9b6b116
+
 https://mqscores.lsa.umich.edu/replication.php
+
 http://supremecourtdatabase.org/index.php
 
