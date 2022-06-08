@@ -1,6 +1,9 @@
 # PIC16B-Project
 
-## Project proposal
+## Overview of Project
+For our project, we conducted a sentiment analysis on the opinions of Supreme Court Justices with the aim to differentiate and highlight the unique “legal writing styles” of the Justices, which is beneficial for people learning about legal writing and may reveal Justices’ legal philosophy. Our methodology included downloading large volumes of Supreme Court opinion PDFs from the official website. Then, we used OCR tools to detect and store the text before using regular expressions to separate the opinions and identify the author in order to construct our official dataset CSV. After preparing the data, we utilized NLP packages and tensorflow in order to find high prevalence words for each opinion type and author, as well as score the overall sentiment in the opinion. Once we created our models for both type and author classification based on the text, we tested these models on completely unseen data from the past 2 months. After examining our results, which were poor on the unseen data, we attempted to recreate our models after removing the justices from the training set who were not seen in the test set. As a result, our results seemed to improve.
+
+## Our Initial Project proposal
 
 ### Abstract
 We plan to perform sentiment analysis on the written opinions of Supreme Court Justices, with the aim to differentiate and highlight the unique "legal writing styles" of the Justices, which will be beneficial for people learning about legal writing and may reveal Justices' legal philosophy. Our methodology will include downloading large volumes of Supreme Court opinion PDFs from the official website. Then, we would use OCR tools to detect and store the text before using regular expressions to separate the opinions and identify the author in order to construct our official dataset CSV. After preparing the data, we would utilize an NLP package in order to find high prevalence words for each author, as well as score the overall sentiment in the opinion.
