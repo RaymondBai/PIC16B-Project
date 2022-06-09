@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-```python
-...
-...
-...
-```
-=======
-
->>>>>>> parent of 0f5a5e7 (add dots to tic-tac-toe)
